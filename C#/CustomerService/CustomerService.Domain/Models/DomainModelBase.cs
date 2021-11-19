@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace CustomerService.Domain.Models
 {
-    public class Order : DomainModelBase
+    public class DomainModelBase
     {
-        public string Number { get; set; }
-        public OrderDetails Details { get; set; }
+        public int Id { get; set; }
     }
 }
